@@ -13,4 +13,8 @@ function calculateRectangleArea() {
     // calculation reactangle area 
     const area = width * length;
     console.log(area);
+
+    // diaplay reactangle area
+    const displayReactangleArea = document.getElementById('reactangle-area');
+    displayReactangleArea.innerText = area;
 }

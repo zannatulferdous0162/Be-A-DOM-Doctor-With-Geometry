@@ -16,7 +16,7 @@ const height = parseFloat(triangleHeightText);
  console.log(area);
 
  //display triangle area 
- const displayTriangleArea = document.getElementById('triangle area');
+ const displayTriangleArea = document.getElementById('triangle-area');
  displayTriangleArea.innerText = area;
  
 }
